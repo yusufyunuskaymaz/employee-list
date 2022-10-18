@@ -25,7 +25,7 @@ const Card = (props) => {
     console.log(count);
     
   return (
-    <div className='container text-center text-danger my-3'>
+    <div className='container text-center text-success my-3'>
         <h1>Employee List</h1>
         <div className="col my-5">
         <button onClick={handleDec} className='btn btn-primary me-5'>Previous</button>
